@@ -7,7 +7,10 @@ export function Overlay({
   return (
     <div
       style={{
-        position: 'relative',
+        position: 'absolute',
+        top: '10px',
+        left: '10px',
+        zIndex: 1,
         backgroundColor: 'white',
         borderRadius: '20px',
         padding: '20px',
